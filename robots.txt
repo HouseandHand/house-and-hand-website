@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://houseandhand.github.io/house-and-hand-website/sitemap.xml
