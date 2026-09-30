@@ -26,7 +26,7 @@
 
   function placementFor(link) {
     if (link.closest('nav')) return 'navigation';
-    if (link.closest('.hero')) return 'hero';
+    if (link.closest('.hero, .subpage-hero')) return 'hero';
     if (link.closest('.offer')) return 'promotion';
     if (link.closest('.cta')) return 'contact_section';
     if (link.closest('footer')) return 'footer';
